@@ -4,7 +4,7 @@
 <!-- DW6 -->
 <head>
 <title>The First Vice President's Office, Zanzibar</title>
-<link rel="icon" href="./favicon.ico" type="image/x-icon" />
+<meta charset="utf-8">
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/grid.css" type="text/css" media="all">
@@ -27,11 +27,11 @@
 }
 -->
 </style>
-<link href="index.html-files/styles_b3m7t.css" type="text/css" rel="stylesheet"/>
 <style type="text/css">
 <!--
 .style4 {
-	font-size: 12px;
+	color: #E85A3A;
+	font-size: medium;
 }
 -->
 <!--
@@ -54,13 +54,70 @@
 -->
 </style>
 <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.6.2.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+<!-- / fim dos arquivos utilizados pelo jQuery lightBox plugin -->
+
+<!-- Ativando o jQuery lightBox plugin -->
+<script type="text/javascript">
+    $(function() {
+        $('#gallery a').lightBox();
+    });
+    </script>
+<style type="text/css">
+/* jQuery lightBox plugin - Gallery style */
+	#gallery {
+	background-color: #f5f5f5;
+	padding: 10px;
+	width: 100%;
+}
+#gallery ul {
+	list-style: none;
+}
+#gallery ul li {
+	display: inline;
+}
+#gallery ul img {
+	border-top-width: 5px;
+	border-right-width: 5px;
+	border-bottom-width: 20px;
+	border-left-width: 5px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #DBDBDB;
+	border-right-color: #DBDBDB;
+	border-bottom-color: #DBDBDB;
+	border-left-color: #DBDBDB;
+}
+#gallery ul a:hover img {
+	color: #fff;
+	border-top-width: 5px;
+	border-right-width: 5px;
+	border-bottom-width: 20px;
+	border-left-width: 5px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #0094f7;
+	border-right-color: #0094f7;
+	border-bottom-color: #0094f7;
+	border-left-color: #0094f7;
+}
+#gallery ul a:hover {
+	color: #FFF;
+}
+</style>
 </head>
 <body>
 <div>
   <p class="links"></p>
 </div>
-<div id="main"> 
-  
+<div id="main">
+
   <!-- header -->
   <header> <img src="images/icon-rss.jpg" width="126" height="92" align="middle"> <img src="images/logo.gif" width="118" height="70" align="top" class="logo"/>
     <nav>
@@ -81,7 +138,6 @@
             <li><a href="Reports.html">Reports</a></li>
             <li><a href="strategicplanning.html">Strategic Plan</a></li>
             <li><a href="gazeti.html">Gazeti & Brochures</a></li>
-            <li><a href="downloads.html">Downloads</a></li>
           </ul>
         </li>
         <li><a href="#" class="MenuBarItemSubmenu">COMMISSIONS</a>
@@ -102,77 +158,23 @@
       </ul>
     </nav>
   </header>
-  <div class="wrapper"> 
+  <div class="wrapper">
     <!-- content -->
     <section id="content">
       <div class="container_12">
         <div class="wrapper">
-          <div class="grid_8">
+          
+          <div class="grid_8" style="width: 95%">
             <div class="indent">
-              <article>
-                <div class="inside1">
-                  <h2><span class="style3">Contact</span> <span class="style2">Information</span></h2>
-                  <div class="wrapper">
-                    <div align="justify"><img src="images/contact-us1.jpg" alt="" width="211" height="158" class="img-indent" />
-                      <dl class="address style4">
-                        <dt><strong>The First Vice President's Office, Zanzibar</strong><br />
-                          Migombani, Airport Road,<br />
-                          P.O. Box 2808, Zanzibar </dt>
-                        <dd>Freephone:+255 24 2234617</dd>
-                        <dd>Telephone:+255 24 2234617</dd>
-                        <dd>FAX:+255 24 2234606</dd>
-                        <dd>E-mail: <a href="#">info@fvpo.go.tz</a></dd>
-                      </dl>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
-                      <br />
-                      <dl class="address style4">
-                        <dt><strong>Director Department of Disability Affairs</strong> <br />
-                          P.O. Box 2808, Zanzibar </dt>
-                        <dd>Mobile:&nbsp;&nbsp;+255 777 858 384</dd>
-                        <dd>Office:&nbsp;&nbsp;+255 242 234 885</dd>
-                      </dl>
-                    </div>
-                  </div>
-                </div>
-              </article>
               <article class="last">
-                <div class="wrapper">
-                  <div class="grid_4 colborder alpha">
-                    <div class="inside1">
-                      <h2 class="style6">Locations</h2>
-                      <h6 align="justify" class="style3">Zanzibar</h6>
-                      <p align="justify">We are Located at Migobani Street, along Airport Road.</p>
-                    </div>
-                  </div>
-                  <div class="grid_4 omega">
-                    <div class="inside">
-                      <h2 class="style6">&nbsp;</h2>
-                      <h6 align="justify" class="style3">Pemba Office</h6>
-                      <p align="justify" class="p3"></p>
-                    </div>
-                  </div>
+                <div class="inside">
+                  <h2>Career</h2>
+                  <p>Currently there are no job openings</p>
+                  <div class="wrapper"></div>
                 </div>
               </article>
             </div>
           </div>
-          <aside class="grid_4">
-            <div class="box">
-              <h2 class="style15"><strong>Related Links</strong></h2>
-              <ul class="list1">
-                <li><a href="#">Vision 2020 Priorities </a></li>
-                <li><a href="#">MKUZA</a></li>
-                <li><a href="ppresearch.html">Department of  Planning, Policy and Research </a></li>
-                <li><a href="downloads.html">Downloads</a></li>
-                <li><a href="#">FVPO Pemba's Office</a></li>
-                <li><a href="admin_personel.html">Department of Administration and Personel</a></li>
-                <li><a href="#">Management</a></li>
-              </ul>
-            </div>
-          </aside>
         </div>
       </div>
     </section>
@@ -186,8 +188,8 @@
         <li><a href="#">Departiments</a></li>
         <li><a href="#">Publications</a></li>
         <li><a href="#">Commissions</a></li>
-        <li><a href="#">News & Events</a></li>
-        <li><a href="contactus.html" class="current">Contacts</a></li>
+        <li><a href="#" class="current">News & Events</a></li>
+        <li><a href="contactus.html">Contacts</a></li>
         <li><a href="#">Web mail</a></li>
       </ul>
       <p><span class="style16">The First Vice President's Office &copy; 2011 &bull;   Powered by stemcom technologies </span></p>
